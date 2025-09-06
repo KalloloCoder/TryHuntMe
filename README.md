@@ -119,7 +119,7 @@ The author is not responsible for any misuse.
 
 ## Author
 
-KalloloCoder(Muh. Agus Tri Ananda)— Creator & Maintainer
+[KalloloCoder](https://github.com/KalloloCoder)([Muh.Agus Tri Ananda](https://www.instagram.com/agstriananda?igsh=MTV1MnVsOWdqMDZlMw==))— Creator & Maintainer
 This project is open-source, contributions are welcome!
 
 ---
