@@ -51,24 +51,23 @@ Copyright © KalloloCoder
 ```bash
 git clone https://github.com/KalloloCoder/TryHuntMe.git
 cd TryHuntMe
-
+```
 2. Run:
-
-
-
+```
 python3 tryhuntme.py -h
+```
 
-Windows (PowerShell)
-
+### Windows (PowerShell)
+```
 git clone https://github.com/KalloloCoder/TryHuntMe.git
 cd TryHuntMe
 python tryhuntme.py -h
-
+```
 
 ---
 
-Usage
-
+## Usage
+```
 usage: tryhuntme [-h] [-v] {start-server,recon,poc,report,about} ...
 
 TryHuntMe — educational bug hunting toolkit (local only).
@@ -84,55 +83,51 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -v, --version         Show version info
+```
+### Examples
 
-Examples
-
-Start local vulnerable server (default port 8000):
-
+- Start local vulnerable server (default port 8000):
+```
 python3 tryhuntme.py start-server
-
-Recon module:
-
+```
+- Recon module:
+```
 python3 tryhuntme.py recon -u http://target.com
-
-Generate PoC payload:
-
+```
+- Generate PoC payload:
+```
 python3 tryhuntme.py poc -v xss
-
-Generate a markdown report:
-
+```
+- Generate a markdown report:
+```
 python3 tryhuntme.py report
-
-About TryHuntMe:
-
+```
+- About TryHuntMe:
+```
 python3 tryhuntme.py about
-
-
+```
 
 ---
 
-Disclaimer
+## Disclaimer
 
-TryHuntMe is made for educational purposes only.
+*TryHuntMe* is made for educational purposes only.
 Do not use it to attack systems without explicit permission.
 The author is not responsible for any misuse.
 
-
 ---
 
-Author
+## Author
 
-KalloloCoder — Creator & Maintainer
+KalloloCoder(Muh. Agus Tri Ananda)— Creator & Maintainer
 This project is open-source, contributions are welcome!
 
-
 ---
 
-Support
+## Support
 
 If you like this project, please give it a ⭐ on GitHub!
 
----
+### Buy me a Coffee?
 
-Bos mau aku tambahin **License section** (MIT summary) di README juga biar lebih resmi, atau cukup badge aja?
 
