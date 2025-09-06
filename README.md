@@ -26,10 +26,10 @@
    ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
    ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
 ```
-> TryHuntMe is a CLI-based educational bug hunting toolkit.  
+> *TryHuntMe* is a CLI-based educational bug hunting toolkit.  
 Perfect for learning recon, basic exploitation, payload obfuscation, and testing against a vulnerable local server.  
 
-Copyright © KalloloCoder  
+**Copyright © KalloloCoder**  
 
 ---
 
