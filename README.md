@@ -129,5 +129,4 @@ This project is open-source, contributions are welcome!
 If you like this project, please give it a ⭐ on GitHub!
 
 ### Buy me a Coffee?
-
-
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/muhammadagt)
