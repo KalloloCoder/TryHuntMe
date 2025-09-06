@@ -1,9 +1,9 @@
 <p align="center">
   <img src="assets/logo_try.png" alt="TryHuntMe Logo" width="350"/>
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue" />
+  <img src="https://img.shields.io/github/tag/KalloloCoder/TryHuntMe.svg" />
   <img src="https://img.shields.io/github/v/release/KalloloCoder/TryHuntMe?color=blue&label=version" />
   <img src="https://img.shields.io/github/license/KalloloCoder/TryHuntMe" />
   <img src="https://img.shields.io/badge/Maintained-Yes-green" />
