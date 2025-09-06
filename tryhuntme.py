@@ -166,7 +166,7 @@ Contoh pemakaian:
     args = parser.parse_args()
 
     if args.version:
-        colorful_print(f"{APP_NAME} v0.9.0", Fore.CYAN)
+        colorful_print(f"{APP_NAME} v1.1.0", Fore.CYAN)
         sys.exit(0)
 
     if args.cmd == "start-server":
