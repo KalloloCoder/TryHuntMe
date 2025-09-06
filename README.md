@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="TryHuntMe Logo" width="250"/>
+  <img src="assets/logo_try.png" alt="TryHuntMe Logo" width="250"/>
 </p>
 
 <p align="center">
