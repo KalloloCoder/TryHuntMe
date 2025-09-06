@@ -18,109 +18,120 @@
 
 # TryHuntMe
 
-```
-░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓████████▓▒░ 
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░   
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
-```
-> TryHuntMe adalah toolkit edukasi bug hunting berbasis CLI.
-Cocok untuk belajar recon, exploitasi dasar, payload obfuscation, dan simulasi testing di server dummy lokal.
+░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓████████▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░   ░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░
+░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░
 
-Copyright © KalloloCoder
+> TryHuntMe is a CLI-based educational bug hunting toolkit.  
+Perfect for learning recon, basic exploitation, payload obfuscation, and testing against a vulnerable local server.  
+
+Copyright © KalloloCoder  
 
 ---
 
-## Fitur
+## Features
 
-- Reconnaissance Module — scanning target dengan berbagai metode.
-
-- PoC Generator — bikin Proof of Concept eksploitasi secara otomatis.
-
-- Payload Obfuscator — mengacak payload agar lebih sulit terdeteksi.
-
-- Local Vulnerable Server — server dummy penuh kerentanan untuk latihan.
-
-- Report Generator — hasil pembelajaran bisa diekspor jadi laporan.
+- **Reconnaissance Module** — scan targets with basic methods.  
+- **PoC Generator** — automatically generate Proof of Concept payloads.  
+- **Payload Obfuscator** — scramble payloads to evade detection.  
+- **Local Vulnerable Server** — practice on a dummy vulnerable server.  
+- **Report Generator** — export results as a markdown report.  
 
 ---
 
-## Instalasi
+## Installation
 
 ### Linux / Termux (Android)
 
-1. Clone repo
-```
+1. Clone the repo:
+```bash
 git clone https://github.com/KalloloCoder/TryHuntMe.git
 cd TryHuntMe
-```
 
-2. Jalankan langsung
-```
+2. Run:
+
+
+
 python3 tryhuntme.py -h
-```
 
-### Windows (PowerShell)
-```
+Windows (PowerShell)
+
 git clone https://github.com/KalloloCoder/TryHuntMe.git
 cd TryHuntMe
-```
-```
 python tryhuntme.py -h
-```
+
 
 ---
 
-## Penggunaan
+Usage
 
-1. Lihat help:
-```
-python3 tryhuntme.py -h
-```
+usage: tryhuntme [-h] [-v] {start-server,recon,poc,report,about} ...
 
-2. Jalankan server dummy (default port 8000):
-```
+TryHuntMe — educational bug hunting toolkit (local only).
+
+positional arguments:
+  {start-server,recon,poc,report,about}
+    start-server        Start the local vulnerable server for testing
+    recon               Reconnaissance: basic port scan and DNS resolve
+    poc                 Generate a simple PoC payload
+    report              Generate a simple markdown report
+    about               About TryHuntMe
+
+options:
+  -h, --help            show this help message and exit
+  -v, --version         Show version info
+
+Examples
+
+Start local vulnerable server (default port 8000):
+
 python3 tryhuntme.py start-server
-```
 
-3. Stop server dummy (pakai kill/ctrl+c/restart device):
-```
-pkill -f vuln_server.py
-```
+Recon module:
 
-4. Recon module:
-```
 python3 tryhuntme.py recon -u http://target.com
-```
 
-5. Generate PoC:
-```
+Generate PoC payload:
+
 python3 tryhuntme.py poc -v xss
-```
+
+Generate a markdown report:
+
+python3 tryhuntme.py report
+
+About TryHuntMe:
+
+python3 tryhuntme.py about
+
+
 
 ---
 
-## Disclaimer
+Disclaimer
 
-TryHuntMe dibuat hanya untuk tujuan edukasi.
+TryHuntMe is made for educational purposes only.
+Do not use it to attack systems without explicit permission.
+The author is not responsible for any misuse.
 
-Jangan gunakan untuk menyerang sistem tanpa izin.
-
-Segala penyalahgunaan bukan tanggung jawab author.
 
 ---
 
-## Author
+Author
 
 KalloloCoder — Creator & Maintainer
+This project is open-source, contributions are welcome!
 
-Project ini open-source, kontribusi selalu welcome!
 
 ---
 
-## Support
+Support
 
-Kalau suka project ini, kasih ⭐ di repo GitHub yah!
+If you like this project, please give it a ⭐ on GitHub!
+
+---
+
+Bos mau aku tambahin **License section** (MIT summary) di README juga biar lebih resmi, atau cukup badge aja?
+
