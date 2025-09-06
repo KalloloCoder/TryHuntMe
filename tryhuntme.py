@@ -21,13 +21,13 @@ APP_NAME = "TryHuntMe"
 COPYRIGHT = "© KalloloCoder"    
     
 ASCII = r"""    
-░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓████████▓▒░     
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░            
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░            
-   ░▒▓█▓▒░   ░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░       
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░            
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░            
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░     
+░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░▒▓████████▓▒░▒▓██████████████▓▒░░▒▓████████▓▒░
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+   ░▒▓█▓▒░   ░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░
 """    
     
 def colorful_print(s, color=Fore.GREEN):    
@@ -100,62 +100,73 @@ def show_banner():
     print(f"{Fore.CYAN}{APP_NAME} - Learn Bug Hunting Locally{Style.RESET_ALL}")    
     print(f"{Fore.YELLOW}{COPYRIGHT}{Style.RESET_ALL}\n")    
     
-def main():    
-    show_banner()    
-    parser = argparse.ArgumentParser(prog="tryhuntme",    
-                                     description="TryHuntMe — educational bug hunting toolkit (local only).")    
-    sub = parser.add_subparsers(dest="cmd")    
-    
-    # start-server    
-    s_srv = sub.add_parser("start-server", help="Start the local vulnerable server for testing")    
-    s_srv.add_argument("--port", "-p", type=int, default=8000, help="Port to run local server")    
-    s_srv.add_argument("--open", action="store_true", help="Open in browser after start")    
-    
-    # recon    
-    s_recon = sub.add_parser("recon", help="Reconnaissance: basic port scan and DNS resolve")    
-    s_recon.add_argument("-t", "--target", dest="host", help="Target host (ip or domain)")    
-    s_recon.add_argument("--start", type=int, help="Start port")    
-    s_recon.add_argument("--end", type=int, help="End port")    
-    s_recon.add_argument("--threads", type=int, default=50, help="Threads for scan")    
-    s_recon.add_argument("--timeout", type=float, default=1.0, help="Socket timeout seconds")    
-    
-    # poc    
-    s_poc = sub.add_parser("poc", help="Generate a simple PoC payload")    
-    s_poc.add_argument("--type", choices=["xss", "sqli"], help="Type of PoC")    
-    s_poc.add_argument("--target", help="Target base URL")    
-    s_poc.add_argument("--obfuscate", action="store_true", help="Return obfuscated payload")    
-    
-    # report    
-    s_rep = sub.add_parser("report", help="Generate a simple markdown report")    
-    s_rep.add_argument("--target", required=True)    
-    s_rep.add_argument("--output", "-o", help="Output file name")    
-    
-    # info    
-    s_info = sub.add_parser("about", help="About TryHuntMe")    
-    
-    # global help/style examples    
-    parser.add_argument("-v", "--version", action="store_true", help="Show version info")    
-    args = parser.parse_args()    
-    
-    if args.version:    
-        colorful_print(f"{APP_NAME} v1.0.0", Fore.CYAN)    
-        sys.exit(0)    
-    
-    if args.cmd == "start-server":    
-        start_vuln_server(port=args.port, open_browser=args.open)    
-    elif args.cmd == "recon":    
-        run_recon(args)    
-    elif args.cmd == "poc":    
-        run_poc(args)    
-    elif args.cmd == "report":    
-        make_report(args)    
-    elif args.cmd == "about":    
-        colorful_print(f"{APP_NAME} — educational local bug hunting toolkit", Fore.CYAN)    
-        print("Modules available: recon, poc, server, report")    
-        print("Designed for local training only.")    
-    else:    
+def main():
+    show_banner()
+
+    parser = argparse.ArgumentParser(
+        prog="tryhuntme",
+        description="TryHuntMe — educational bug hunting toolkit (local only).",
+        formatter_class=argparse.RawTextHelpFormatter,
+        epilog="""
+Contoh pemakaian:
+  tryhuntme start-server --port 8080 --open
+  tryhuntme recon -t 192.168.1.10 --start 20 --end 1000
+  tryhuntme poc --type xss --target http://example.com --obfuscate
+  tryhuntme report --target example.com -o myreport.md
+"""
+    )
+
+    sub = parser.add_subparsers(dest="cmd")
+
+    # start-server
+    s_srv = sub.add_parser("start-server", help="Start the local vulnerable server for testing")
+    s_srv.add_argument("--port", "-p", type=int, default=8000, help="Port to run local server")
+    s_srv.add_argument("--open", action="store_true", help="Open in browser after start")
+
+    # recon
+    s_recon = sub.add_parser("recon", help="Reconnaissance: basic port scan and DNS resolve")
+    s_recon.add_argument("-t", "--target", dest="host", help="Target host (ip or domain)")
+    s_recon.add_argument("--start", type=int, help="Start port")
+    s_recon.add_argument("--end", type=int, help="End port")
+    s_recon.add_argument("--threads", type=int, default=50, help="Threads for scan")
+    s_recon.add_argument("--timeout", type=float, default=1.0, help="Socket timeout seconds")
+
+    # poc
+    s_poc = sub.add_parser("poc", help="Generate a simple PoC payload")
+    s_poc.add_argument("--type", choices=["xss", "sqli"], help="Type of PoC")
+    s_poc.add_argument("--target", help="Target base URL")
+    s_poc.add_argument("--obfuscate", action="store_true", help="Return obfuscated payload")
+
+    # report
+    s_rep = sub.add_parser("report", help="Generate a simple markdown report")
+    s_rep.add_argument("--target", required=True)
+    s_rep.add_argument("--output", "-o", help="Output file name")
+
+    # info
+    s_info = sub.add_parser("about", help="About TryHuntMe")
+
+    # global help/style examples
+    parser.add_argument("-v", "--version", action="store_true", help="Show version info")
+    args = parser.parse_args()
+
+    if args.version:
+        colorful_print(f"{APP_NAME} v0.9.0", Fore.CYAN)
+        sys.exit(0)
+
+    if args.cmd == "start-server":
+        start_vuln_server(port=args.port, open_browser=args.open)
+    elif args.cmd == "recon":
+        run_recon(args)
+    elif args.cmd == "poc":
+        run_poc(args)
+    elif args.cmd == "report":
+        make_report(args)
+    elif args.cmd == "about":
+        colorful_print(f"{APP_NAME} — educational local bug hunting toolkit", Fore.CYAN)
+        print("Modules available: recon, poc, server, report")
+        print("Designed for local training only.")
+    else:
         parser.print_help()    
-    
     
 if __name__ == "__main__":    
     main()
